@@ -1,1 +1,98 @@
-. 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0b1020, #05070d);
+  color: #00b7ff;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  color: #00b7ff;
+  text-shadow: 0 0 10px #00b7ff;
+}
+
+.sub {
+  color: #666;
+  margin-top: -10px;
+}
+
+/* Panels */
+.panel {
+  margin: 20px auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 15px;
+  background: rgba(10, 15, 26, 0.9);
+  border: 1px solid #00b7ff33;
+  box-shadow: 0 0 20px #000;
+}
+
+/* Input */
+input {
+  width: 90%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  background: #0c1426;
+  color: #00b7ff;
+  border: 1px solid #00b7ff33;
+}
+
+/* BUTTONS (BIG + GLOW + CYBER STYLE) */
+.btn {
+  display: block;
+  margin: 12px auto;
+  padding: 14px 20px;
+  width: 85%;
+  max-width: 280px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+/* Main Scan Button (BLUE GLOW) */
+.main {
+  background: #00b7ff;
+  color: #000;
+  box-shadow: 0 0 15px #00b7ff;
+}
+
+/* CONTACT BUTTON (RED WARNING STYLE) */
+.btn:not(.main):not(.ghost) {
+  background: #ff0033;
+  color: white;
+  box-shadow: 0 0 15px #ff0033;
+}
+
+/* ABOUT BUTTON (OUTLINE BLUE) */
+.ghost {
+  background: transparent;
+  border: 1px solid #00b7ff;
+  color: #00b7ff;
+}
+
+/* Hover effects */
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+.info {
+  color: #aaa;
+  font-size: 13px;
+} 
